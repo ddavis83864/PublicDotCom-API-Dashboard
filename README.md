@@ -1,3 +1,5 @@
+<img width="1752" height="1117" alt="Image" src="https://github.com/user-attachments/assets/5cc0c3c3-4d9f-41fb-ac48-7bda47750de3" />
+
 # Public.com Dashboard
 A **financial activity dashboard** that provides clear visibility into brokerage account activity — including trades, dividends, fees, and cash movement — in a single, easy-to-understand interface.
 
@@ -143,8 +145,6 @@ npm run prisma:migrate
 1) Replace local single-user mode with real authentication
 2) Add risk controls (max order size, symbol allowlists, two-person rule)
 3) Add rate limiting and circuit breakers for upstream failures
-
-<img width="1752" height="1117" alt="Image" src="https://github.com/user-attachments/assets/5cc0c3c3-4d9f-41fb-ac48-7bda47750de3" />
 
 <img width="1752" height="1117" alt="Image" src="https://github.com/user-attachments/assets/1236609c-51be-47fd-9555-f9b4f9f7a848" />
 
