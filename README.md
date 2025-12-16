@@ -156,3 +156,6 @@ npm run prisma:migrate
 2) Add risk controls (max order size, symbol allowlists, two-person rule)
 3) Add rate limiting and circuit breakers for upstream failures
 >>>>>>> 607fdb0 (Initial commit of existing code)
+>>>>>>>
+<img width="1752" height="1117" alt="Image" src="https://github.com/user-attachments/assets/5cc0c3c3-4d9f-41fb-ac48-7bda47750de3" />
+
