@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# Public Dashboard
+# Public.com Dashboard
 A **financial activity dashboard** that provides clear visibility into brokerage account activity — including trades, dividends, fees, and cash movement — in a single, easy-to-understand interface.
 
 The dashboard is designed for **safety, transparency, and scalability**. It aggregates account activity from brokerage systems, stores it as a persistent event ledger, and presents both detailed history and high-level summaries without allowing any trading or account changes.
