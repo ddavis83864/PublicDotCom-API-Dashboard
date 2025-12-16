@@ -70,26 +70,35 @@ Clone the repository:
 git clone https://github.com/<your-username>/public-dashboard.git
 
 1) Install
+
 cd public-dashboard
+
 npm install
 
 2) Configure env
+
 npx prisma migrate dev --name init
+
 cp .env.example .env.local
 
 3) Run
+
 npm run dev
+
 Open: http://localhost:3000
 
 ## Initialize the database (recommended)
 
 This repo uses SQLite by default.
+
 npm run prisma:migrate
 
 ## Enable live Public API calls (optional)
 
 1) Edit `.env.local`:
+   
 - Set `MOCK_PUBLIC_API=false`
+  
 - Set `PUBLIC_SECRET_TOKEN=...`
 
 2) Restart `npm run dev`
