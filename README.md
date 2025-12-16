@@ -49,17 +49,6 @@ This project is designed to run locally with minimal setup and no external depen
 - npm
 - Git
 
-### Local Setup
-Clone the repository:
-
-```bash
-git clone https://github.com/<your-username>/public-dashboard.git
-cd public-dashboard
-npm install
-npx prisma migrate dev --name init
-npm run dev
-
-Open browser to: http://localhost:3000
 =======
 # Public Dashboard Starter (Next.js + TypeScript)
 
@@ -77,38 +66,29 @@ It ships with:
 
 ## Quick start (mock mode)
 
-1) Install
+Clone the repository:
+git clone https://github.com/<your-username>/public-dashboard.git
 
-```bash
+1) Install
+cd public-dashboard
 npm install
-```
 
 2) Configure env
-
-```bash
+npx prisma migrate dev --name init
 cp .env.example .env.local
-```
 
 3) Run
-
-```bash
 npm run dev
-```
-
 Open: http://localhost:3000
 
 ## Initialize the database (recommended)
 
 This repo uses SQLite by default.
-
-```bash
 npm run prisma:migrate
-```
 
 ## Enable live Public API calls (optional)
 
 1) Edit `.env.local`:
-
 - Set `MOCK_PUBLIC_API=false`
 - Set `PUBLIC_SECRET_TOKEN=...`
 
